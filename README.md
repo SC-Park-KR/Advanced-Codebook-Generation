@@ -20,31 +20,23 @@ As a result, the system can improve beamforming performance while maintaining **
 
 You can directly run the following scripts to reproduce key results and compare performance:
 
-- **`Demo.m`**
+- **`Demo1.m`, `Demo2.m`**
   - End-to-end demo that compares:
     - **Proposed PMI-based enhanced codebook**
     - **Baseline: perfect location-based approach**
     - **Baseline: conventional DFT codebook**
   - Metrics:
     - **Sum-rate**
-    - **Beamforming gain**
   - Also helps compare **parameter selection/decision behavior** across methods.
 
-- **`Figure_3.m`**
-  - Reproduces results corresponding to **Figure 3** in the paper (or the accompanying document).
-
-- **`Figure_6and7.m`**
-  - Reproduces results corresponding to **Figures 6 and 7** in the paper (or the accompanying document).
-
-> Tip: For reproducibility, consider setting a fixed random seed (e.g., `rng(0)`) before running experiments.
+- **`Parameter.m`**
+  - Plots the beamforming gain versus the eDFT parameter variations.
 
 ---
 
 ## Documentation (Detailed Explanation)
 
-For more detailed descriptions of assumptions, parameter settings, and implementation notes, please refer to the PDF:
-
-https://drive.google.com/file/d/18wfVdFwV4ZBds786L49ddFAyyQUDEI0C/view?usp=drive_link
+See the detailed documentation in [PDF](https://drive.google.com/file/d/18wfVdFwV4ZBds786L49ddFAyyQUDEI0C/view?usp=drive_link).
 
 ---
 
