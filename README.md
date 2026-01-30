@@ -16,6 +16,23 @@ As a result, the system can improve beamforming performance while maintaining **
 
 ---
 
+## Requirements
+
+### Main Application
+- **Application**: MATLAB  
+- **Recommended Version**: R2023a  
+  - Other versions are also likely to be compatible, but behavior may vary depending on toolbox functions.
+- **Description**: A high-level language and interactive environment for numerical computation, visualization, and programming; widely used for data analysis, algorithm development, and modeling.
+- **Download**: https://mathworks.com/products/matlab.html
+
+### Required MATLAB Toolbox
+- **Toolbox**: Statistics and Machine Learning Toolbox  
+- **Description**: Provides functions and tools for data analysis, statistical modeling, machine learning, and predictive analytics.  
+  - In this simulator, **`ksdensity`** is used for **Kernel Density Estimation (KDE)**.
+- **Download**: https://mathworks.com/products/statistics.html
+
+---
+
 ## Quick Start (Run Scripts)
 
 You can directly run the following scripts to reproduce key results and compare performance:
@@ -36,23 +53,6 @@ You can directly run the following scripts to reproduce key results and compare 
 ## Documentation (Detailed Explanation)
 
 See the detailed documentation in [PDF](https://drive.google.com/file/d/18MtA3zDslI-vYFAVQXWlmPmb28_faQNY/view?usp=drive_link).
-
----
-
-## Requirements
-
-### Main Application
-- **Application**: MATLAB  
-- **Recommended Version**: R2023a  
-  - Other versions are also likely to be compatible, but behavior may vary depending on toolbox functions.
-- **Description**: A high-level language and interactive environment for numerical computation, visualization, and programming; widely used for data analysis, algorithm development, and modeling.
-- **Download**: https://mathworks.com/products/matlab.html
-
-### Required MATLAB Toolbox
-- **Toolbox**: Statistics and Machine Learning Toolbox  
-- **Description**: Provides functions and tools for data analysis, statistical modeling, machine learning, and predictive analytics.  
-  - In this simulator, **`ksdensity`** is used for **Kernel Density Estimation (KDE)**.
-- **Download**: https://mathworks.com/products/statistics.html
 
 ---
 
