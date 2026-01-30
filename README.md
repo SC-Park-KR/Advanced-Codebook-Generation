@@ -1,42 +1,40 @@
-# Advanced-Codebook-Generation
-<!-- Title Slide (Markdown + HTML) -->
-<div align="center">
+## Overview
 
-<h1 style="margin:0; color:#0a8a00; font-weight:800; letter-spacing:0.5px;">
-  SIMULATION MATLAB CODE<br/>
-  for PMI-Based Codebook Enhancement
-</h1>
+This repository provides MATLAB simulation code for the paper:
 
-<br/><br/><br/>
+**“Advanced Codebook Generation Using High-Resolution k-Means Clustering to PMI Data”**
 
-<h2 style="margin:0; color:#0b2a6b; font-weight:500;">
-  Advanced Codebook Generation Using High-<br/>
-  Resolution k-Means Clustering to PMI Data
-</h2>
+The proposed method generates an advanced beamforming codebook using **only PMI (Precoding Matrix Indicator) feedback** from UE, without requiring extra signaling or additional CSI exchange. The workflow is:
 
-<br/><br/>
+1. **PMI collection** from UE feedback (3GPP-compliant feedback assumption)
+2. **PMI resolution enhancement** via **Kernel Density Estimation (KDE)**
+3. **Codebook refinement** using **k-means clustering**
+4. **Iterative codebook update** to adapt autonomously to environmental changes
 
-<span style="
-  display:inline-block;
-  background:#0b63c7;
-  color:#ffffff;
-  padding:10px 30px;
-  font-weight:700;
-  letter-spacing:0.5px;
-">
-  VERSION 1.2
-</span>
+As a result, the system can improve beamforming performance while maintaining **3GPP compliance** and avoiding additional overhead.
 
-<br/><br/><br/><br/>
+---
 
-<p style="margin:0; color:#0b2a6b; font-size:22px; font-weight:600;">
-  2025.02.20
-</p>
-<p style="margin:10px 0 0 0; color:#0b2a6b; font-size:22px;">
-  Ph.D. Sangchun Park
-</p>
-<p style="margin:20px 0 0 0; color:#0b2a6b; font-size:24px;">
-  Sogang University, Republic of Korea
-</p>
+## Requirements
 
-</div>
+### Main Application
+
+- **Application**: MATLAB  
+- **Recommended Version**: R2023a  
+  - Other versions are also likely to be compatible, but behavior may vary depending on toolbox functions.
+- **Description**: A high-level language and interactive environment for numerical computation, visualization, and programming; widely used for data analysis, algorithm development, and modeling.
+- **Download**: https://mathworks.com/products/matlab.html
+
+### Required MATLAB Toolbox
+
+- **Toolbox**: Statistics and Machine Learning Toolbox  
+- **Description**: Provides functions and tools for data analysis, statistical modeling, machine learning, and predictive analytics.  
+  - In this simulator, **`ksdensity`** is used for **Kernel Density Estimation (KDE)**.
+- **Download**: https://mathworks.com/products/statistics.html
+
+---
+
+## Quick Notes
+
+- If you encounter missing-function errors (e.g., `ksdensity`), confirm that the **Statistics and Machine Learning Toolbox** is installed and licensed.
+- For reproducibility, consider setting the random seed (e.g., `rng(...)`) before running experiments.
