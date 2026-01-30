@@ -36,7 +36,7 @@ You can directly run the following scripts to reproduce key results and compare 
 
 ## Documentation (Detailed Explanation)
 
-See the detailed documentation in [PDF](https://drive.google.com/file/d/18wfVdFwV4ZBds786L49ddFAyyQUDEI0C/view?usp=drive_link).
+See the detailed documentation in [PDF]([https://drive.google.com/file/d/18wfVdFwV4ZBds786L49ddFAyyQUDEI0C/view?usp=drive_link](https://drive.google.com/file/d/18MtA3zDslI-vYFAVQXWlmPmb28_faQNY/view?usp=sharing)).
 
 ---
 
