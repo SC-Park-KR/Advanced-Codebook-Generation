@@ -9,7 +9,7 @@ The proposed method generates an advanced beamforming codebook using **only PMI 
 
 1. **PMI collection** from UE feedback (3GPP-compliant feedback assumption)
 2. **PMI resolution enhancement** via **Kernel Density Estimation (KDE)**
-3. **Codebook refinement** using **k-means clustering**
+3. **Codebook refinement** using **k-means++ clustering**
 4. **Iterative codebook update** to adapt autonomously to environmental changes
 
 As a result, the system can improve beamforming performance while maintaining **3GPP compliance** and avoiding additional overhead.
