@@ -27,8 +27,7 @@ You can directly run the following scripts to reproduce key results and compare 
     - **Baseline: conventional DFT codebook**
   - Metrics:
     - **Sum-rate**
-  - Also helps compare **parameter selection/decision behavior** across methods.
-
+    
 - **`Parameter.m`**
   - Plots the beamforming gain versus the eDFT parameter variations.
 
